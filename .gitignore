@@ -205,3 +205,36 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# Editor settings
+# =========================
+atelectasis_detection/.vscode/
+
+# =========================
+# Virtual environments
+# =========================
+atelectasis_detection/tf_env/
+venv/
+.env/
+
+# =========================
+# Datasets & runtime data
+# =========================
+atelectasis_detection/data/
+atelectasis_detection/scripts/data/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Model artifacts
+# =========================
+*.keras
+*.pkl
+*.h5
+*.pt
+*.pth
